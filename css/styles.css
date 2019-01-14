@@ -98,6 +98,7 @@ h2>img {
   display: flex;
   justify-content: center;
   width: 400px;
+  color:  rgb(14, 113, 138);
 }
 
 .copyname {
@@ -111,5 +112,5 @@ p > img {
 }
 .jumbotron,h1{
   text-align: center;
-  color: brown;
+  color: darkcyan;
 }
