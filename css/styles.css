@@ -109,3 +109,7 @@ p > img {
   height: 30px;
   width: 30px;
 }
+.jumbotron,h2{
+  text-align: center;
+  color: brown;
+}
