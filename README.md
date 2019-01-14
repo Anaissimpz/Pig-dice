@@ -24,7 +24,7 @@ Run this link to play the game:  https://anaissimpz.github.io/Pig-dice/
 |If Player rolls any number other than 1, roll is added to round total   | Roll = 5     |  Round Total =5    |
 |If Player1 rolls 1, no score is added and round for Player 2  |  Roll = 1    |  Round Total = 0, Score = 0,  Player2 plays    |
 |If Player1 clicks Hold, round total is added to his score and it's Player2 Turn | Click Hold     |  Round Total = 5, Score = 5, Player2 plays    |
-| When a player's total score is 10 or more, game is over and winner alert shows  |  Player 1 score = 15	    | Newton WINS (SweetAlert)    |
+| When a player's total score is 10 or more, game is over and winner alert shows  |  Player 1 score = 15	    | Ana WINS (SweetAlert)    |
 #### Support and Contact
 If you ever have a question about the Quiz-Board website feel free to contact me at:
 * Phone Number:+250783711066 to call me or
