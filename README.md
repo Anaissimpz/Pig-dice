@@ -14,7 +14,7 @@ Players throw a dice and scores as many points as the total shown on the dice pr
 - jQuery
 - Git
 ## Setup
-Run this link to play the game:
+Run this link to play the game:  https://anaissimpz.github.io/Pig-dice/
 
 ## BDD Specifications
 | Behavior                          |  Input Example |  Output  Example|
