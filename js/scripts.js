@@ -41,7 +41,7 @@ var Player = function(name, score, status){
   }
   // function Winner
   var winner = function(){
-    if (playerOne.score >= 100){
+    if (playerOne.score >= 10){
       $(".dice-img").text("!!!" + playerOne.name + "  WINS !!!")
       swal({
         title: "!!!" + playerOne.name + "  WINS !!!",
@@ -50,7 +50,7 @@ var Player = function(name, score, status){
       });
       $("#roll").prop("disabled", true);
       $("#hold").prop("disabled", true);
-    } else if (playerTwo.score >= 100){
+    } else if (playerTwo.score >= 10){
       $(".dice-img").text("!!!" + playerTwo.name + "  WINS !!!")
       swal({
         title: "!!!" + playerTwo.name + "  WINS !!!",
@@ -106,7 +106,7 @@ var Player = function(name, score, status){
     $("#help").click(function(){
       swal({
         title: "How To Play!",
-        text: "Choose a player to go first. That player throws a die and scores as many points as the total shown on the die providing the die doesn’t roll a 1. The player may continue rolling and accumulating points (but risk rolling a 1) or end his turn. If the player rolls a 1 his turn is over, he loses all points he accumulated that turn, and he passes the die to the next player. Play passes from player to player until a winner is determined. The first player to accumulate 100 or more points wins the game.",
+        text: "Choose a player to go first. That player throws a die and scores as many points as the total shown on the die providing the die doesn’t roll a 1. The player may continue rolling and accumulating points (but risk rolling a 1) or end his turn. If the player rolls a 1 his turn is over, he loses all points he accumulated that turn, and he passes the die to the next player. Play passes from player to player until a winner is determined. The first player to accumulate 10 or more points wins the game.",
         button: "Got it!",
       });
     })
