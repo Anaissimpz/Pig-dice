@@ -17,7 +17,7 @@ var Player = function(name, score, status){
   var roll = function(){
     rolled = Math.floor(Math.random()*6) + 1;
     $("#new-dice").remove();
-    $(".dice-img").prepend("<img id='new-dice' src='images/the-dice"+rolled+".png' alt='Dice "+rolled+"'>");
+    $(".dice-img").prepend("<img id='new-dice' src='images/dice"+rolled+".png' alt='dice "+rolled+"'>");
     if (rolled != 1){
       roundTotal += rolled
     } else {
@@ -25,7 +25,6 @@ var Player = function(name, score, status){
       turnPlayer();
     }
   }
-  
   //function to change players turns
   var turnPlayer = function(){
     if (playerOne.status == "enabled") {
@@ -40,7 +39,6 @@ var Player = function(name, score, status){
       $(".one-turn").show();
     }
   }
-  
   // function Winner
   var winner = function(){
     if (playerOne.score >= 100){
